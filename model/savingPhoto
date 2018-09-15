@@ -1,0 +1,43 @@
+var async = require('async');
+var accessPath = path.join(__dirname, "../uploadLocation");
+var folderName = new Date().getTime();
+
+async.auto({
+                        makeDir: function(next, results) {
+                            makeDir(accessPath, folderName, next);
+                        },
+                        writeFile: ['makeDir', function(next, results) {
+                            writeFile(accessPath, folderName, req.body.user.ImgData, req.body.user.email, next);
+                        }],
+                    }, function(err, success) {
+                        if (err) {
+                            console.log("error occurs while saving image")
+                        } else {
+                            console.log("success", success)
+
+                        }
+                    });
+
+  var makeDir = function(accessPath, folderName, next) {
+                    try {
+                        console.log("accessPath inside makeDir", accessPath, folderName)
+                        fs.mkdirSync(accessPath + "/upload/user/" + folderName);
+                        next(null, "done")
+                    } catch (e) {
+                        console.log("error in creating folder");
+                        next(e, "Err")
+                    }
+                }
+
+                var writeFile = function(accessPath, folderName, ImgData, email, next) {
+
+                    var userImgName = email + ".jpg";
+                    fs.writeFile(accessPath + "/upload/user/" + folderName + "/" + userImgName, ImgData, function(err, success) {
+                        if (err) {
+                            next(e, "Err")
+                        } else {
+                            console.log("success write file");
+                            next(null, null);
+                        }
+                    });
+                }

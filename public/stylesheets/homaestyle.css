@@ -1,0 +1,286 @@
+/* Start Main Rules */
+body{
+   
+    margin: auto; background-color: #141422;
+    background-image: url("../images/back.png");
+    
+    
+    }
+    .container{ margin: auto; width: 1070px;
+    }
+    .clearfix{clear: both}
+    /* Ens Main Rules */
+    
+    li button {
+        font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+        border-radius: 4px;
+        color: #cc1d5d;
+        background: #0d0d16;
+        font-size: 16px;
+        height: 28px;
+        width: 95px;
+        border-color: #cc1d5d;
+    }
+    .Header .Navbar ul li button a {
+        color: #cc1d5d;
+    }
+    
+    /* Ens Main Rules */
+    
+    /* Start Header*/
+    /*.Header .Slider{height: 315px; ;}*/
+    .Header .Navbar{ background-color: #0d0d16;
+        color: white;
+        overflow: hidden;
+        height: 50px;
+    }
+    
+    .Header .Navbar h2{ color: #ffffff; float: left; padding: 0px; margin: 6px 0px 0px -32px}
+    
+    .Header .Navbar ul{ list-style: none;
+        margin-top: 15px;
+        padding-left: 0;
+        overflow: hidden;
+        float: right;
+        font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+        font-size: 17px;}
+    
+    .Header .Navbar ul li{ padding: 0px;  
+          margin-left: 30px; float: left;}
+    .Header .Navbar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+     .download  img {
+       width: 228px;
+        margin-left: 235px;
+        margin-top: 45px;
+     }
+    /*.download button{
+        display: inline;
+        float: left;
+        background-color: #bc4724;
+        color: white;
+            margin-left: 200px;
+        margin-top: 177px;
+        border-color: #bc4724;
+        border-radius: 4px;
+        height: 59px;
+        width: 278px;
+    }*/
+    /* End Header*/
+    
+    .diveder{
+        color: #d2cec6;
+        margin-top: 0px;
+        width: 100%;
+    margin-bottom: -9px;
+    }
+    /*Start part2*/
+     .part1{
+        
+        background-image: url('/images/bg.png'); 
+    } 
+    
+    /* .backgroung img { 
+        position: absolute;
+        /* bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0; */
+        /* z-index: 0;
+        width: 100%; */
+        /* height: 100vh;
+        height: auto; */
+        /* margin: auto; 
+    } */
+    
+    
+     .paragraph1 p{
+        
+        font-size: 30px;
+        text-align: center;
+        color: #f9efc1;
+        font-family: 'Century Gothic',sans-serif;
+        font:bold ;
+    }
+    /*    
+    .discription{
+    color: #ffffff;
+        font-size: 32px;
+        margin-top: 93px;
+        margin-bottom: -192px;
+        font-family: 'Berlin Sans FB','Source Sans Pro', 'Lucida Grande', sans-serif;
+    
+    }*/
+    
+    
+    
+    
+    
+    .app img {
+        float: right;
+        display: inline;
+    }
+    
+    
+    
+    
+    .or h2 {
+        color: #ffffff;
+        margin-left: 127px;
+    }
+    
+    .part1 .image1 img {
+         
+            margin-top: 0px;
+        margin-left: -139px;
+    }
+    
+    
+    
+    /*End Part2*/
+    
+    
+    .mapinfo p{
+        color: #ffffff ;
+        margin-left: 4px;
+    
+    }
+    
+    /*Part 3*/
+    
+    .prt3 {
+        height: 490px;
+        font-family: Gadugi;
+    }
+    
+    
+    
+    .appinfo{
+        color:#ffffff ;
+        font-family: Gadugi;
+    }
+    
+    
+    .appinfo p{
+        color:#ffffff ;
+        font-family: Gadugi;
+            margin-left: 183px;
+    }
+    
+    
+    .appinfo h2{
+        color:#bd1e5e ;
+        font-family: Gadugi;
+        margin-top: 71px;
+           font-size: 34px;
+        margin-left: 224px;
+    }
+    /*End Part 3*/
+    
+    a{
+        color: white;
+        text-decoration: none;
+      }
+    /*Part2*/
+    .part2 {
+            height: 640px;
+    }
+    .part2 .mappicture img{
+          float: left;
+        margin-left: -79px;
+        margin-top: 124px;
+        width: 360px;
+    }
+    
+    .part2 .title {
+    color: #e0e0e0;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 16px;
+        text-align: center;
+            margin-top: 64px;
+    }
+    
+    .part2 .map1{
+        float: right;
+        border: 4px solid   #bd1e5e;;
+        margin-top: 95px;
+    }
+    
+    /*End part2*/
+    /*=====================*/
+    
+    .describe1{
+        overflow: hidden;
+    }
+    
+      .describe1 .dialo  {
+        width: 30.3333%;
+        float: left;
+        height: 150px;
+        color: white;
+        margin-top: 20px;
+        padding-left: 20px;
+        margin-left: 4px;
+        line-height: 1.71429;
+        font-family: Gadugi;
+      }
+    
+    
+    .disc h2{
+          color: #e4e4e4;
+          margin-top: 56px;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+      }
+    
+    
+      .describe1 .selectimg img{
+        margin-left: 305px;
+        padding: 5px;
+        width: 480px;
+      }
+    
+    
+    
+    
+    
+    
+    /*=================*/
+    footer  {
+        list-style: none;
+        height: 100px;
+        font-family: sans-serif;
+        font-size: 13px;
+        width: 100%;
+        color: white;
+        /* background-color: black; */
+        text-align: center;
+    }
+    .foo{
+        margin-top: 10px;
+    }
+    
+    .copy  {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .terms  {
+    
+      display: inline-block;
+      color: #bd1e5e;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      line-height: 1;
+      padding: 0.5em 0.75em;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    
+    
+    
+    

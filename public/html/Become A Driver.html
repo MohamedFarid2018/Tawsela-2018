@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF_8">
+    <title>Tawsela</title>
+    <style>
+                /* Always set the map height explicitly to define the size of the div
+                 * element that contains the map. */
+                #map {
+                       height: 402px;
+    width: 649px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 100px;
+    border-radius: 2px;
+                }
+                /* Optional: Makes the sample page fill the window. */
+              
+                .controls {
+                  margin-top: 10px;
+                  border: 1px solid transparent;
+                  border-radius: 2px 0 0 2px;
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  height: 32px;
+                  outline: none;
+                  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+                }
+          
+                #origin-input,
+                #destination-input {
+                  background-color: #fff;
+                  font-family: Roboto;
+                  font-size: 15px;
+                  font-weight: 300;
+                  margin-left: 12px;
+                  padding: 0 11px 0 13px;
+                  text-overflow: ellipsis;
+                  width: 200px;
+                }
+          
+                #origin-input:focus,
+                #destination-input:focus {
+                  border-color: #4d90fe;
+                }
+          
+                #mode-selector {
+                  color: #fff;
+                  background-color: #4d90fe;
+                  margin-left: 12px;
+                  padding: 5px 11px 0px 11px;
+                }
+          
+                #mode-selector label {
+                  font-family: Roboto;
+                  font-size: 13px;
+                  font-weight: 300;
+                }
+          
+              </style>
+               
+
+       <link rel="stylesheet" type="text/css" href="../stylesheets/Become A Driver.css">
+       <link rel="stylesheet" type="text/css" href="../stylesheets/Normalize.css">
+
+
+    
+      </head>
+
+
+    <body>
+         
+    <!-- Start Header -->
+    <div class="Header">
+      <div class="Navbar">
+          <div class="container">
+              
+            <h2><a href="home"><img src="../images/logo.png"></a> </h2>   
+     <ul>
+          <li><a href="home">Home</a></li>
+         <li><a href="ride">Ride </a></li>
+         <li><a href="drive">Drive </a></li>
+         
+         <!-- <li><a href="Delivery.html">Delivery </a></li> -->
+         <li><a href="becomeadriver">Become A Driver </a> </li>
+         <!-- <li> <a href="help.html">Help </a> </li> -->
+         <li class="sig"> <button href="sign_up"><a href="sign_up">Sign up </a> </button> </li>
+          </ul>
+      </div>
+      </div>
+</div>
+
+    <div class="part1"> 
+            <div class="container">
+                   <div class="paragraph1">
+             <h2>Tawsela needs partners like you.</h2> 
+                    With Twsela as an independent contractor and has earned a good inflow of funds.
+                     You will be paid weekly for helping passengers easily navigate around the city.
+                     Be the master of yourself and make money by driving you at the right time.
+                </div>
+                </div>
+                
+                
+                
+                <div class="container">
+                         <div class="signform">
+                                         
+                          <form action="/login" method="POST">
+                            <img src="../images/Car.png">
+                         <div class="signin">
+                           <h1>Sign in</h1>
+                         </div>
+                         <input type="text" placeholder="Email OR Your Phone" id="Phone"  name="user">   
+                         <input type="password" placeholder="password" id="pass" name="password" >
+                         <input type="hidden" name="type" value="p">
+                         <input type="hidden" name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6InBJZC0xNTI5Nzc0NDE1MTU0OTcxNTE1MjYyYjZmZDA1OGMiLCJpYXQiOjE1Mjk3NzQ0MTV9.FeLYNuQ-7yqfsjtdbTIYpaleA61CJ4flpq1FH1a-LAQ"> 
+                              
+                            <!-- button -->
+               <button name="Sign_in" type="submit" onclick="go()"> Submit</button>
+                        
+               
+                  <div id = "div4"></div>
+                       <!-- Or Conect with social media -->
+                     <div class="or">
+                           <h2>OR</h2>
+                           </div>
+                            <div class="signup">
+                            <button name="Sign_in"  onclick="go('')"> <a href="sign_up">Sign Up </a></button>
+                                
+  
+                                
+                                
+                            </div>
+                         
+                                       </form>
+                             </div>
+                             
+                    </div>
+
+                     <div class="image1"><img src="../images/7.png"> </div>
+           
+                  </div>
+
+
+                  <div class="split">
+                        <img src='../images/split.png'>
+                    </div>
+
+                  <dive class = "part5"> 
+                        <div class="container">
+                        <div class="describe">
+            
+                                    <img src='../images/1.png'>
+            
+                                    <div class="dialo">
+                                            <p>
+                                                    you earn good sums of money
+                                                    do you have a car? Use it to earn money.
+                                                     The city is vibrant and there is a need to move from one place to another and Twsela offers you the perfect opportunity to take advantage of this.
+                                                     In fact, you have everything you need to start with Twsela.
+                                            </p>
+                                    </div>
+                                </div>
+            
+                            <div class="describe">
+                                    <img src='../images/2.png'>
+                                    
+                                                          <div class="dialo">
+                                                                <p>
+                                                                       Drive whenever you like
+                                                                        As an independent contractor with Twsela,
+                                                                        you will have the freedom and flexibility to choose the time that suits you best.
+                                                                         Set the right time for you so that you do not miss important moments in your life. </p>
+                                                            </div>
+                            </div>
+                                    
+                                 
+                                
+            
+                                   <div class="describe">
+                                                            
+                                         <img src='../images/3.png'>
+                                             
+                     
+                      
+                                <div class="dialo">
+                                <p>
+                                        No office, no manager.
+                                        Whether you're supporting your family or trying to save money for a big dream,
+                                         Twsela gives you the freedom to choose the time you want to lead. 
+                                        Put your best time and choose where you want to go and who you want to be.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </dive>
+            
+            
+               
+                   
+                   
+
+
+                <footer>
+
+                  <div class="foo">
+                    <div><br> <br> </div>
+                                  <div class="copy">
+                             
+                                   <div> &#169; 2018 All Rights Reseved</div> 
+                                      
+                              
+                                  </div>
+                                  <div class="terms">
+                                          
+                                          <div>   Terms</div> 
+                                          <div>  Privacy policy</div> 
+                                     
+                                  </div>
+              </div>
+              
+                          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <script>
+                        // This example requires the Places library. Include the libraries=places
+                        // parameter when you first load the API. For example:
+                        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+                  
+                        function initMap() {
+                          var map = new google.maps.Map(document.getElementById('map'), {
+                            mapTypeControl: false,
+                            center: {lat: -33.8688, lng: 151.2195},
+                            zoom: 13
+                          });
+                  
+                          new AutocompleteDirectionsHandler(map);
+                        }
+                  
+                         /**
+                          * @constructor
+                         */
+                        function AutocompleteDirectionsHandler(map) {
+                          this.map = map;
+                          this.originPlaceId = null;
+                          this.destinationPlaceId = null;
+                          this.travelMode = 'WALKING';
+                          var originInput = document.getElementById('origin-input');
+                          var destinationInput = document.getElementById('destination-input');
+                          var modeSelector = document.getElementById('mode-selector');
+                          this.directionsService = new google.maps.DirectionsService;
+                          this.directionsDisplay = new google.maps.DirectionsRenderer;
+                          this.directionsDisplay.setMap(map);
+                  
+                          var originAutocomplete = new google.maps.places.Autocomplete(
+                              originInput, {placeIdOnly: true});
+                          var destinationAutocomplete = new google.maps.places.Autocomplete(
+                              destinationInput, {placeIdOnly: true});
+                  
+                          this.setupClickListener('changemode-walking', 'WALKING');
+                          this.setupClickListener('changemode-transit', 'TRANSIT');
+                          this.setupClickListener('changemode-driving', 'DRIVING');
+                  
+                          this.setupPlaceChangedListener(originAutocomplete, 'ORIG');
+                          this.setupPlaceChangedListener(destinationAutocomplete, 'DEST');
+                  
+                          this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(originInput);
+                          this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(destinationInput);
+                          this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(modeSelector);
+                          
+                            
+                          /*var input = document.getElementById('origin-input');
+                          var autocomplete = new google.maps.places.Autocomplete(input);
+                          var input2 = document.getElementById('destination-input');
+                          var autocomplete2 = new google.maps.places.Autocomplete(input2);
+                          google.maps.event.addListener(autocomplete, 'place_changed', function () {
+                  
+                          var place = autocomplete.getPlace();
+                          var Latitude = place.geometry.location.lat() ;
+                          var Longitude= place.geometry.location.lng();
+                          document.getElementById('latu').value = Latitude;
+                          document.getElementById('lng').value = Longitude;
+                           })
+                          google.maps.event.addListener(autocomplete2, 'place_changed', function () {
+                          var place2 = autocomplete2.getPlace();
+                          var Latitude = place2.geometry.location.lat() ;
+                          var Longitude= place2.geometry.location.lng();
+                          document.getElementById('latu2').value = Latitude;
+                          document.getElementById('lng2').value = Longitude;
+                          })*/
+                        }
+                  
+                        // Sets a listener on a radio button to change the filter type on Places
+                        // Autocomplete.
+                        AutocompleteDirectionsHandler.prototype.setupClickListener = function(id, mode) {
+                          var radioButton = document.getElementById(id);
+                          var me = this;
+                          radioButton.addEventListener('click', function() {
+                            me.travelMode = mode;
+                            me.route();
+                          });
+                        };
+                  
+                        AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(autocomplete, mode) {
+                          var me = this;
+                          autocomplete.bindTo('bounds', this.map);
+                          autocomplete.addListener('place_changed', function() {
+                            var place = autocomplete.getPlace();
+                            if (!place.place_id) {
+                              window.alert("Please select an option from the dropdown list.");
+                              return;
+                            }
+                            if (mode === 'ORIG') {
+                              me.originPlaceId = place.place_id;
+                            } else {
+                              me.destinationPlaceId = place.place_id;
+                            }
+                            me.route();
+                          });
+                  
+                        };
+                  
+                        AutocompleteDirectionsHandler.prototype.route = function() {
+                          if (!this.originPlaceId || !this.destinationPlaceId) {
+                            return;
+                          }
+                          var me = this;
+                  
+                          this.directionsService.route({
+                            origin: {'placeId': this.originPlaceId},
+                            destination: {'placeId': this.destinationPlaceId},
+                            travelMode: this.travelMode
+                          }, function(response, status) {
+                            if (status === 'OK') {
+                              me.directionsDisplay.setDirections(response);
+                            } else {
+                              window.alert('Directions request failed due to ' + status);
+                            }
+                          });
+                        };
+                  
+                      </script>
+                      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgYvMTe1jz4KZzBrVSdVFeZjITWkBixsU&libraries=places&callback=initMap"
+                          async defer></script>      
+
+                          
+
+                        </body>
+                        
+                    </html>
+                    
